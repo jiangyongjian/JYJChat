@@ -496,6 +496,7 @@
         
         // 发送时，textViewH的高度为33
         textViewH = minHeight;
+        [textView scrollRangeToVisible:textView.selectedRange];
     }
     
     // 3.调整整个InputToolBar 的高度
